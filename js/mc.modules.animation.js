@@ -6,7 +6,7 @@
  **/
   
  /* start GENERAL CUSTOMIZATION PROPERTIES */
-var templateBaseURL         = "http://localhost/Ingenio";/*"http://themes.mediacreed.com/html/synergy/"*/ 
+var templateBaseURL         = "http://www.ingeniocontenido.co";/*"http://themes.mediacreed.com/html/synergy/"*/ 
 var themeColor              = "#e5b549";
 var menuActive              = true;
 var menuHoverActive         = true; /* it will change to false if menuActive == true. If 'menuActive' 
