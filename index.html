@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
@@ -13,7 +13,7 @@
 	<title>Ingenio Contenido Digital</title>
     
 	<meta name="description" content="" />
-	<meta name="author" content="MEDIACREED.COM" />
+	<meta name="author" content="ingeniocontenido.co" />
         
         <link rel="stylesheet" href="css/style.css" />
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Sans+Caption:400,700' rel='stylesheet' type='text/css' />        
@@ -30,9 +30,9 @@
     	<script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>    
         <script type="text/javascript" src="js/libs/modernizr.custom.min.js"></script> 
         <script type="text/javascript" src="js/libs/jquery.wipetouch.js"></script>   
-             
-       <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&sensor=true"></script>-->
-        
+        <!--     
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&sensor=true"></script>
+        -->
         <script type="text/javascript" src="js/libs/jquery.gmap.min.js"></script>
         <script type="text/javascript" src="js/greensock/minified/TweenMax.min.js"></script>    
         <script type="text/javascript" src="js/libs/jquery.timer.js"></script>
@@ -70,29 +70,19 @@
         <div class="menu-content-holder"><!-- start .menu-content-holder -->
             <div class="menu-background"></div>
             <div id="template-logo" class="template-logo" data-href="#portfolio.html"></div> 
-            <div id="template-menu" class="template-menu" data-current-module-type="full_width_gallery" data-side="none" data-href="#portfolio.html"><!-- start #template-menu -->
-                <div class="menu-option-holder">
+            <div id="template-menu" class="template-menu" data-current-module-type="full_width_gallery" data-side="none" data-href="#portfolio.html">
+<!-- start #template-menu -->
+
+                 <div class="menu-option-holder" data-module-type="home3" data-side="none">
+                        <div id="menu-option-background" class="menu-option-background"> </div>
+                    	<div id="menu-option-text" class="menu-option-text"><a href="#home.html" data-path-href="html/home/">INICIO</a></div>
+                 </div>  
+<!--                
+                <div class="menu-option-holder" data-module-type="news" data-side="height">
                     <div id="menu-option-background" class="menu-option-background"> </div>
-                    <div id="menu-option-text" class="menu-option-text">
-                        <a href="#">INICIO</a>
-                        <div class="menu-option-sign">+</div>
-                    </div>                
-                    <div class="sub-menu-holder">
-                        <div class="sub-menu-option-holder" data-module-type="slideshow" data-side="none">
-                            <div class="sub-menu-option-background"></div>
-                            <div class="sub-menu-option-text"><a href="#home_layout_1.html" data-path-href="html/home/">Home Layout 1</a></div>
-                        </div>
-                        <div class="sub-menu-option-holder" data-module-type="home2" data-side="none">
-                            <div class="sub-menu-option-background"></div>
-                            <div class="sub-menu-option-text"><a href="#home_layout_2.html" data-path-href="html/home/">Home Layout 2</a></div>
-                        </div>
-                        <div class="sub-menu-option-holder" data-module-type="home3" data-side="none">
-                            <div class="sub-menu-option-background"> </div>
-                            <div class="sub-menu-option-text"><a href="#home_layout_3.html" data-path-href="html/home/">Home Layout 3</a></div>
-                        </div>
-                        
-                    </div>         
-                </div>
+                    <div id="menu-option-text" class="menu-option-text"><a href="#news.html" data-path-href="html/news/">NOTICIAS</a></div>
+                </div>  
+-->
                 <div class="menu-option-holder">
                     <div id="menu-option-background" class="menu-option-background"> </div>
                     <div id="menu-option-text" class="menu-option-text">
@@ -106,16 +96,18 @@
                         </div>
                         <div class="sub-menu-option-holder" data-module-type="text_page" data-side="none">
                             <div class="sub-menu-option-background"></div>
-                            <div class="sub-menu-option-text"><a href="#philosophy.html" data-path-href="html/about_us/">Misión</a></div>
+                            <div class="sub-menu-option-text"><a href="#mision.html" data-path-href="html/about_us/">Misión</a></div>
                         </div>
                         <div class="sub-menu-option-holder" data-module-type="text_page" data-side="height">
                             <div class="sub-menu-option-background"> </div>
-                            <div class="sub-menu-option-text"><a href="#ethics.html" data-path-href="html/about_us/">Visión</a></div>
+                            <div class="sub-menu-option-text"><a href="#vision.html" data-path-href="html/about_us/">Visión</a></div>
                         </div>
+<!--
                         <div class="sub-menu-option-holder" data-module-type="text_page" data-side="none">
                             <div class="sub-menu-option-background"> </div>
                             <div class="sub-menu-option-text"><a href="#careers.html" data-path-href="html/about_us/">Trabaje con Nosotros</a></div>
-                        </div>                        
+                        </div> 
+-->                      
                     </div>
                 </div>
                 <div class="menu-option-holder" data-module-type="news" data-side="height">
@@ -125,29 +117,28 @@
                 <div class="menu-option-holder" data-module-type="full_width_gallery" data-side="none">
                     <div id="menu-option-background" class="menu-option-background"> </div>
                     <div id="menu-option-text" class="menu-option-text"><a href="#portfolio.html" data-path-href="html/portfolio/">PORTAFOLIO</a></div>
-                </div> 
-                <div class="menu-option-holder">
+                </div>
+
+                <div class="menu-option-holder" data-module-type="page_columns" data-side="none">
                     <div id="menu-option-background" class="menu-option-background"> </div>
-                    <div id="menu-option-text" class="menu-option-text"><a href="#" data-path-href="html/our_projects/">PROYECTOS</a><div class="menu-option-sign">+</div></div>
-                    <div class="sub-menu-holder">
-                        <div class="sub-menu-option-holder" data-module-type="page_columns" data-side="custom">
-                            <div class="sub-menu-option-background"> </div>
-                            <div class="sub-menu-option-text"><a href="#4_columns_projects.html" data-path-href="html/our_projects/">Proyectos 1</a></div>
-                        </div>
-                        <div class="sub-menu-option-holder" data-module-type="page_columns" data-side="custom">
-                            <div class="sub-menu-option-background"> </div>
-                            <div class="sub-menu-option-text"><a href="#3_columns_projects.html" data-path-href="html/our_projects/">Proyectos</a></div>
-                        </div>
-                        <div class="sub-menu-option-holder" data-module-type="page_columns" data-side="custom">
-                            <div class="sub-menu-option-background"> </div>
-                            <div class="sub-menu-option-text"><a href="#2_columns_projects.html" data-path-href="html/our_projects/">Proyectos 2</a></div>
-                        </div>
-                    </div>
-                </div>               
+                    <div id="menu-option-text" class="menu-option-text"><a href="#projects.html" data-path-href="html/our_projects/">PROYECTOS</a></div>
+                </div> 
+<!--             
                 <div class="menu-option-holder" data-module-type="showreel" data-side="none">
                     <div id="menu-option-background" class="menu-option-background"> </div>
                     <div id="menu-option-text" class="menu-option-text"><a href="#showreel.html" data-path-href="html/showreel/">REEL</a></div>
-                </div>                               
+                </div>
+-->
+		<div class="menu-option-holder" data-module-type="fullscreen_video" data-side="none">
+                    <div id="menu-option-background" class="menu-option-background"> </div>
+                    <div id="menu-option-text" class="menu-option-text"><a href="#video.html" data-path-href="html/features/">REEL</a></div>
+                </div>
+                
+                <div class="menu-option-holder" data-module-type="pricing_tables" data-side="none">
+                    <div id="menu-option-background" class="menu-option-background"> </div>
+                    <div id="menu-option-text" class="menu-option-text"><a href="#tabla.html" data-path-href="html/features/">HOSTING</a></div>
+                </div>  
+<!--                                            
                 <div class="menu-option-holder">
                     <div id="menu-option-background" class="menu-option-background"> </div>
                     <div id="menu-option-text" class="menu-option-text"><a href="#">GALERIA</a><div class="menu-option-sign">+</div></div>
@@ -161,7 +152,8 @@
                             <div class="sub-menu-option-text"><a href="#mixed_gallery.html" data-path-href="html/galleries/">Mixed Gallery</a></div>
                         </div>                        
                     </div>
-                </div>                
+                </div>
+-->              <!--                   
                 <div class="menu-option-holder">
                     <div id="menu-option-background" class="menu-option-background"> </div>
                     <div id="menu-option-text" class="menu-option-text"><a href="#">CARACTERISTICAS</a><div class="menu-option-sign">+</div></div>
@@ -176,7 +168,7 @@
                         </div>
                         <div class="sub-menu-option-holder" data-module-type="fullscreen_video" data-side="none">
                             <div class="sub-menu-option-background"></div>
-                            <div class="sub-menu-option-text"><a href="#fullscreen_video.html" data-path-href="html/features/">Fullscreen Video</a></div>
+                            <div class="sub-menu-option-text"><a href="#video.html" data-path-href="html/features/">Fullscreen Video</a></div>
                         </div>
                         <div class="sub-menu-option-holder" data-module-type="pricing_tables" data-side="none">
                             <div class="sub-menu-option-background"> </div>
@@ -184,6 +176,7 @@
                         </div>
                     </div>
                 </div>
+-->
                 <div class="menu-option-holder" data-module-type="contact" data-side="custom">
                     <div id="menu-option-background" class="menu-option-background"> </div>
                     <div id="menu-option-text" class="menu-option-text"><a href="#contact.html" data-path-href="html/contact/">CONTACTO</a></div>
@@ -191,23 +184,22 @@
             </div><!-- end #template-menu -->  
             <div id="template-smpartphone-menu">
                 <select>
-                    <option value="#">Navigate to...</option>
-                    <option value="#"> HOME +</option>
-                        <option value="#home_layout_1.html">  - Home Layout 1</option>
-                        <option value="#home_layout_2.html">  - Home Layout 2</option>
-                        <option value="#home_layout_3.html">  - Home Layout 3</option>
-                    <option value="#"> ABOUT US +</option>
-                        <option value="#about_us.html">  - About us</option>
-                        <option value="#philosophy.html">  - Philosophy</option>
-                        <option value="#ethics.html">  - Ethics</option>
-                        <option value="#careers.html">  - Careers</option>
-                    <option value="#news.html"> NEWS</option>
-                    <option value="#portfolio.html"> PORTFOLIO</option>
+                    <option value="#">Ir A...</option>
+                    <option value="#home.html">INICIO</option>
+                    <option value="#"> NOSOTROS</option>
+                        <option value="#about_us.html">  - Nosotros</option>
+                        <option value="#mision.html">  - Mision</option>
+                        <option value="#vision.html">  - Vision</option>
+                    <option value="#news.html"> NOTICIAS</option>
+                    <option value="#portfolio.html"> PORTAFOLIO</option>
+                    <!--
                     <option value="#"> OUR PROJECTS +</option>
                         <option value="#4_columns_projects.html">  - 4 Columns Projects</option>
                         <option value="#3_columns_projects.html">  - 3 Columns Projects</option>
                         <option value="#2_columns_projects.html">  - 2 Columns Projects</option>
-                    <option value="#showreel.html"> SHOWREEL</option>    
+                      -->  
+                    <option value="#video.html"> REEL</option> 
+                    <!--   
                     <option value="#"> GALLERIES +</option>
                         <option value="#image_gallery.html">  - Image Gallery</option>
                         <option value="#mixed_gallery.html">  - Mixed Gallery</option>
@@ -215,8 +207,9 @@
                         <option value="#full_width_text_and_image.html">  - Full Width Text + Image</option>
                         <option value="#full_width_text_and_video.html">  - Full Width Text + Video</option>
                         <option value="#fullscreen_video.html">  - Fullscreen Video</option>
-                        <option value="#pricing_tables.html">  - Pricing Table</option>  
-                    <option value="#contact.html"> CONTACT</option>
+                        <option value="#pricing_tables.html">  - Pricing Table</option> 
+                     -->    
+                    <option value="#contact.html"> CONTACTO</option>
                 </select>
             </div>
 			<div id="audio-player" data-auto-play="true" data-player-opened="true" data-player-volume="0.6">
@@ -269,7 +262,7 @@
                     <div id="footer-social-holder">
                         <ul>
                             <li class="twitter"><a href="http://www.twitter.com" target="_blank"></a></li>
-                            <li class="facebook"><a href="http://www.facebook.com" target="_blank"></a></li>
+                            <li class="facebook"><a href="http://www.facebook.com/ingeniocontenido" target="_blank"></a></li>
                             <li class="google"><a href="http://www.google.com" target="_blank"></a></li>
                             <li class="dribbble"><a href="http://www.dribbble.com" target="_blank"></a></li>
                             <li class="flickr"><a href="http://www.flickr.com" target="_blank"></a></li>

@@ -9,7 +9,7 @@
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     
-	<title>Showreel | Synergy - Responsive and Interactive HTML Portfolio </title>
+	<title>Fullscreen Video | Synergy - Responsive and Interactive HTML Portfolio </title>
     
 	<meta name="description" content="" />
 	<meta name="author" content="MEDIACREED.COM" />
@@ -59,6 +59,7 @@
 </head>
 
 <body>
+
 <div class="main-template-loader"></div>
 
 <div id="template-wrapper">
@@ -66,7 +67,7 @@
         <div class="menu-content-holder"><!-- start .menu-content-holder -->
             <div class="menu-background"></div>
             <div id="template-logo" class="template-logo" data-href="#portfolio.html"></div> 
-            <div id="template-menu" class="template-menu" data-current-module-type="showreel" data-side="none" data-href="#showreel.html"><!-- start #template-menu -->
+            <div id="template-menu" class="template-menu" data-current-module-type="fullscreen_video" data-side="none" data-href="#fullscreen_video.html"><!-- start #template-menu -->
                 <div class="menu-option-holder">
                     <div class="menu-option-background"> </div>
                     <div class="menu-option-text">
@@ -230,7 +231,7 @@
                 <div id="footer-text"><!-- start #footer-text -->
                     <div id="footer-copyright"><a href="#">&copy;2012 YOUR-COMPANY.COM</a></div>           
                 </div><!-- end #footer -->    
-            </footer> 
+            </footer>
         </div><!-- end .menu-content-holder-->
         
         <div id="menu-hider">
@@ -240,17 +241,17 @@
     </div><!-- end #menu-container -->
     
     <div id="module-container"><!-- start #module-container -->
-        <div id="module-background-holder">        
-            <!--<div id="module-background-solid1" class="opacity_0"></div>--> 
-        	<img src="assets/backg/bck-04.jpg" onload="animateModuleBackground(this)" class="module-background" id="module-background" alt="" />
+        <div id="module-background-holder">
+        	<div id="module-background-solid2" class="opacity_0"></div>
         </div>	
-        <div id="module-container-holder" class="module-position-cc"  data-id="module-position-cc">
-            <div id="module-showreel"  class="module-position-cc module-showreel">
+        <div id="module-container-holder" class="module-position-lc"  data-id="module-position-lc">
+            <div id="module-fullscreen-video" class="module-fullscreen-video">
             <!--
-            	<div id="module-showreel-holder"> 
+                <div id="fullscreen-video-holder"> 
+                
                      <!-- DEMO HTML5/FLASH FALLBACK VIDEO --> 
-                     
-                	 <!--<div id="video-wrapper" data-video-type="standalone" data-width="640" data-height="390"
+                     <!--
+                	 <div id="video-wrapper" data-video-type="standalone" data-width="640" data-height="390"
                           data-url1="http://video-js.zencoder.com/oceans-clip.mp4" data-type1="video/mp4"
                           data-url2="http://video-js.zencoder.com/oceans-clip.webm" data-type2="video/webm"
                           data-url3="http://video-js.zencoder.com/oceans-clip.ogv" data-type3="video/ogg"
@@ -260,33 +261,33 @@
                      <!-- DEMO VIMEO --> 
                      <!--
                      <div id="video-wrapper" data-video-type="vimeo" data-width="640" data-height="390"
-                          data-url="http://player.vimeo.com/video/37813216?portrait=0&color=ffffff"> 
-                          
+                          data-url="http://player.vimeo.com/video/32487239?portrait=0&color=ffffff"> 
+                          -->
                           <!-- Touch Devices, in our case Ipad and Iphone don't work well with iframe's
                                our submenu template has a higher index than the content but when using iframe the submenu
                                can't be clicked anymore. So we use normal video as a backup.
                                !!! This is only for Ipad and Iphone !!!     
-                          
                           <div id="video-wrapper" data-video-type="standalone" data-width="640" data-height="390"
                               data-url1="http://video-js.zencoder.com/oceans-clip.mp4" data-type1="video/mp4"
                               data-url2="http://video-js.zencoder.com/oceans-clip.webm" data-type2="video/webm"
                               data-url3="http://video-js.zencoder.com/oceans-clip.ogv" data-type3="video/ogg"
                               data-poster="js/video-js/oceans-clip.png">                 
                          </div>
+                         https://www.youtube.com/embed/J1eZqS6P4MQ?portrait=0&color=ffffff
                          -->
-                         <!-- END OF Ipad and Iphone fix-->  
+                         <!-- END OF Ipad and Iphone fix-->
                       <!--                 
                      </div>
+                     -->
                      <!---->
                      <!-- DEMO YOUTUBE --> 
-                     
-                	 <div id="video-wrapper" data-video-type="youtube" data-width="640" data-height="390"
-                          data-url="https://www.youtube.com/embed/J1eZqS6P4MQ">           
-                     </div>
-                                 		
-                </div>   
+                     <div id="video-wrapper" data-video-type="youtube" data-width="640" data-height="390"
+                          data-url="https://www.youtube.com/embed/J1eZqS6P4MQ">
+                    </div>
+                                   		
+                </div>
             </div>
-        </div>    
+        </div>   
     </div><!-- end #module-container -->
 </div>
 
